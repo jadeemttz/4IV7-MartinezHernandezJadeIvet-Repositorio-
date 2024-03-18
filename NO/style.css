@@ -1,0 +1,186 @@
+*{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Century gothic', sans-serif;
+    background-color: #ffe0f1;
+    align-content: center;
+    background-position: center center;
+}
+h1{ font-size: 3em;
+    font-weight: regular;
+    text-align: center;
+    }
+h2{ font-size: 2em;}
+#sub1, #sub2, #sub3{
+    display:inline
+}
+#b1,#b2,#b3, #b4, #b5{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 20px 35px;
+    border-radius: 30px;
+    border: 0px solid ;
+    color: rgb(255, 255, 255);
+    background-color: #f1a0ce;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover{
+    background-color:#ff7bc1 ;
+}
+#fua{
+    color: #ff0088;
+    font-weight: bold;
+}
+#imagen1{
+    background-image: url(../NO/image1.png);
+    height: 365px;
+    width: 42.3%;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+#part1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:40vh;
+    background-image:linear-gradient(
+        0deg,
+        #ffe4f0a8,
+        #ffe4f0b7
+    ), url(/NO/fondo.png);
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+#traka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 5vh;
+    background-color: #ff46a591;
+    border-radius: 30px; s
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#traka .container{
+    padding: 20px 12px;
+
+}
+#p1{
+    text-align: center;
+    font-size: 2.5em;
+    background-size: cover;
+    background-position: center center;
+}
+.c{color: #ff0088;}
+#select{
+    background-color: #ff99e61f;
+    align-content: center;
+}
+#select .carta{
+    padding: 50px, 0px;
+    align-items: center;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+#select .container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-flexbox;
+}
+.carta:first-child, .carta:nth-last-child(2), .carta:last-child{
+    display: inline;
+}
+#no{
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-color: #ffa7d2;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#selectra{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+
+}
+#tituloproductos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:20vh;
+    background-color: #ffa4f7d3;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: auto;
+}
+
+
+
+ }
+#jo,#jojo,#jojojo{
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0px solid ;
+    color: rgb(80, 6, 6);
+    background-color: #ef0054;
+    margin: auto;
+    display: flex;
+    padding: 20px 100px;
+
+}
+#jo:hover,#jojo:hover,#jojojo:hover{
+    background-color:#868DB7 ;
+}
+#anuel{
+    background-color:rgba(255, 203, 237, 0.399) ;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    background-color: #f1a0dd28;
+    background-size: cover;
+    background-position: center, center;
+}
+#ultimoboton{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#imagennn{
+    background-image: url(../NO/image2.png);
+    height: 350px;
+}

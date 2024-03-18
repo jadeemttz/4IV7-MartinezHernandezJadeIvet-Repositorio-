@@ -12,7 +12,7 @@ h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1em;}
 button{
-    font-size 1.7em;
+    font-size 2em;
     font-weight: bold;
     padding: 10px 40px;
     border-radius:20px;
@@ -83,7 +83,7 @@ header a:hover{
     color: #F74780;
 }
 #introduccion{
-
+    padding: 30px 50px;
 }
 #introduccion .container{
     text-align: center;
@@ -111,7 +111,7 @@ header a:hover{
     color: #F74780;
     font-size: 1.7em;
 }
-#rostro p{
+#todo p{
     text-align: justify;
     justify-content: center;
     align-items: center;
@@ -119,13 +119,13 @@ header a:hover{
     color:white;
     font-size: 1.5em;
 }
-#rostro h3{
+#todo h3{
     text-align: justify;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     color:#ff286c;
-    font-size: 2.8em;
+    font-size: 2em;
     
 }
 #rostro .container{}
@@ -137,6 +137,38 @@ header a:hover{
     color: white;
     padding: 2px 3px;
 }
-#al,#i{
-    display: inline;
+
+
+footer{
+    display: flex;
+    background-color: #f7477f39;
+    align-items: center;
+    justify-content: center;
+
+}
+#final .container{
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 720px ){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #introduccion{
+
+    }
+    #introduccion .img-container{
+        background-image: url(../ima/imagee.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width:400px;
+    }
 }

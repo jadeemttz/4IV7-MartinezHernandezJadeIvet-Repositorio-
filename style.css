@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0
+    background-color:#f9e8f0 ;
+    font-family: 'Century gothic', sans-serif;
+    background-color: #fff0f5;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1em;}
+button{
+    font-size 1.7em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius:20px;
+    border: 0px;
+    background-color: #fc6092a3;
+    color: #fff0f5;
+
+}
+button:hover{
+    background-color: #ff4989d6;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: #FFD9ED;
+}
+header .logo{
+    margin: 0%;
+    padding: 1% 30px;
+    color:#ff4989d6;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+}
+header a:hover{
+    color: #F74780;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    height: 90vh;
+    background-image:linear-gradient(
+        0deg,
+         #ffe4f0b2,
+         #ffe4f070
+    )
+     ,url(../ima/fondo.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#hero h1{
+    font-size: 3.8em;
+    color: white;
+}
+#hero h2{
+    
+    color: #F74780;
+}
+#introduccion{
+
+}
+#introduccion .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+.cambiarcolor{color: #F74780;}
+#banner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa8fb18e;
+    background-size:cover ;
+    background-position: center center;
+    margin-left: 0%;
+    width: 100%;
+}
+#centrate{
+    text-align: center;
+    padding: 200px 12px;
+    margin: 2%
+}
+#centrate p{
+    font-weight: bold ;
+    color: #F74780;
+    font-size: 1.7em;
+}
+#rostro p{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:white;
+    font-size: 1.5em;
+}
+#rostro h3{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:#ff286c;
+    font-size: 2.8em;
+    
+}
+#rostro .container{}
+#lineatit{
+    display: flex;
+    justify-content: center;
+    background-color: #F74780;
+    border-radius: 30px;
+    color: white;
+    padding: 2px 3px;
+}
+#al,#i{
+    display: inline;
+}
